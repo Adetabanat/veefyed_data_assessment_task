@@ -1,4 +1,4 @@
-# Veefyed – Senior Data Analyst Technical Assessment (Day 1 & Day 2)
+# Veefyed – Senior Data Assessment (Day 1 & Day 2)
 
 This repository contains my submission for the **Veefyed Senior Data Analyst technical assessment**, covering **Day 1 (Scraping & Structuring)** and **Day 2 (API Enrichment)**.
 
@@ -26,15 +26,14 @@ To extract, clean, structure, and enrich real-world skincare product data, demon
 - Product page URL  
 
 ### How to Run
-## Day 1 – Scraping
+# Day 1 – Scraping
 pip3 install requests beautifulsoup4 pandas
 python3 scripts/scrape_qudo.py
 
 ### Outputs
 - `data/qudo_skincare_day1_final.csv`
 - Day 1 documentation (methodology, assumptions, limitations)
-
----
+ 
 
 ## Day 2 – Google Custom Search API Enrichment
 
@@ -65,7 +64,7 @@ Additional columns added to the dataset include:
 - API error logging (if applicable)
 
 ### How to Run
-## Day 2 – Enrichment
+# Day 2 – Enrichment
 pip3 install requests pandas python-dotenv
 python3 scripts/enrich_day2_google_cse.py
 
