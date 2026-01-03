@@ -26,9 +26,9 @@ To extract, clean, structure, and enrich real-world skincare product data, demon
 - Product page URL  
 
 ### How to Run
-# Day 1 – Scraping
-pip3 install requests beautifulsoup4 pandas
-python3 scripts/scrape_qudo.py
+ Day 1 – Scraping
+-pip3 install requests beautifulsoup4 pandas
+-python3 scripts/scrape_qudo.py
 
 ### Outputs
 - `data/qudo_skincare_day1_final.csv`
@@ -64,9 +64,9 @@ Additional columns added to the dataset include:
 - API error logging (if applicable)
 
 ### How to Run
-# Day 2 – Enrichment
-pip3 install requests pandas python-dotenv
-python3 scripts/enrich_day2_google_cse.py
+ Day 2 – Enrichment
+-pip3 install requests pandas python-dotenv
+-python3 scripts/enrich_day2_google_cse.py
 
 
 ### Outputs
